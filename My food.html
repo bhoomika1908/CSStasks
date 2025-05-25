@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My food</title>
+    <link href="https://t3.ftcdn.net/jpg/02/41/30/72/360_F_241307210_MjjaJC3SJy2zJZ6B7bKGMRsKQbdwRSze.jpg" rel="icon">
+    <style>
+        .parent{
+            position: relative;
+            text-align: center;
+            color:slategray;
+        }
+        .image{
+            padding-top: 40px;
+        }
+        .text{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            color: black;
+        }
+        .main2{
+            vertical-align: top;
+            float: left;
+            padding-top: 80px;
+            padding-left: 250px;
+        }
+        .image2,.text2{
+            display: inline-block;
+        }
+        .image2{
+            padding-bottom: 40px;
+        }
+        .text2{
+            padding-bottom: 5px;
+            vertical-align: top;
+            text-align: justify;
+        }
+        #about,#trad{
+            text-align: center;
+        }
+        #para1,#para2{
+            padding-left: 50px;
+            text-align: justify;
+            vertical-align: top;
+        }
+        .menu{
+            vertical-align: top;
+            padding-top: 60px;
+            padding-left: 250px;
+        }
+        .image3,.text3{
+            display: inline-block;
+        }
+        .text3{
+            vertical-align: top;
+        }
+        #item1,#item2,#item3,#item4,#item5{
+            letter-spacing: 5px;
+        }
+        .image3{
+            padding-left: 30px;
+        }
+        #card{
+            vertical-align: top;
+            text-align: center;
+        }
+        .contact{
+            padding-left: 200px;
+        }
+        .footer{
+            background-color:gainsboro;
+            color: black;
+            text-align: center;
+            width: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="image">
+            <img src="https://www.w3schools.com/w3images/hamburger.jpg" style="width: 100%;">
+        </div>
+        <div class="text">
+            <h1>Le Catering</h1>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="image2">
+            <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" width="500" height="500">
+        </div>
+        <div class="text2">
+            <h1 id="about">About Catering</h1><br>
+            <h2 id="trad">Tradition since 1889</h2>
+            <p id="para1">The Catering was founded in blabla by Mr. Smith in lorem<br>ipsum dolor sit amet, consectetur adipiscing elit consectetur<br>adipiscing elit, sed do eiusmod tempor incididunt ut labore<br>et dolore magna aliqua. Ut enim ad minim veniam, quis<br>nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>commodo consequat. Duis aute iruredolor in reprehenderit<br>in voluptate velit esse cillum dolore eu fugiat nulla<br>pariatur.We only use<button type="submit">seasonal</button>ingredients.</p>
+            <p id="para2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui<br>officia deserunt mollit anim id est laborum consectetur adipiscing<br>elit, sed do eiusmod temporincididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br>laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <hr style="width: 70%; color: darkgray">
+    <div class="menu">
+        <div class="text3">   
+        <h1 id="card">Our Menu</h1>
+        <p id="item1">Bread basket</p>
+        <p style="color:dimgrey;">Assortment of fresh baked fruit breads and muffins 5.50</p>
+        <br>
+        <p id="item2">Honey Almond Granola with Fruits</p>
+        <p style="color:dimgrey;">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+        <br>
+        <p id="item3">Belgian Waffle</p>
+        <p style="color:dimgrey;">Vanilla flavored batter with malted flour 7.50</p>
+        <br>
+        <p id="item4"> Scrambled eggs</p>
+        <p style="color: dimgrey;">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+        <br>
+        <p id="item5">Blueberry Pancakes</p>
+        <p style="color: dimgrey;">With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="image3">
+            <img src="https://www.w3schools.com/w3images/tablesetting.jpg" height="650" width="500">
+        </div>
+    </div>
+    <hr style="width: 80%; color: blue;">
+    <div class="contact">
+        <h1 style="letter-spacing: 2px;">Contact</h1>
+        <br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.<br> Do not hesitate to contact us.</p>
+        <h4 style="color:cadetblue">Catering Service, 42nd Living St, 43043 New York, NY</h4>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        <form>
+            <input type="text" placeholder="Name" size="100%" required>
+            <br>
+            <br>
+            <input type="number" placeholder="How many people" size="100%" required>
+            <br>
+            <br>
+            <input type="datetime-local" size="100%" required>
+            <br>
+            <br>
+            <input type="text" placeholder="Message/Special Requirements" size="100%" required>
+            <br>
+            <br>
+            <button type="submit">SEND MESSAGE</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="footer">
+        <p>Powered by<a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+    </div>
+</body>
+</html>
