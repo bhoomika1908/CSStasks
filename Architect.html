@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR Architect</title>
+    <style>
+        .navbar{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            background-color: white;
+            color: black;
+            z-index: 100;
+        }
+        .parent1{
+            position: relative;
+            z-index: -1;
+            padding-bottom: 40px;
+        }
+        .child1{
+            position: absolute;
+            top: 400px;
+            left: 600px;
+            bottom: 500px;
+            right: 500px;
+            color: white;
+        }
+        #br{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        .project1,.project2{
+            width: 100%;
+            z-index: 1;
+        }
+        .pimg{
+            display: inline-block;
+            padding-left: 18.5px;
+            text-align: center;
+        }
+        .parent2{
+            width: 100%;
+        }
+        .ietm{
+            display: inline-block;
+            padding-left: 18.5px;
+            padding-top: 30px;
+        }
+        .contact{
+            padding-left: 15px;
+        }
+        .about{
+            padding-left: 15px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <header>
+        <a href="" style="text-decoration: none;color: black;"><p><b>BR </b>Architects</a>
+        <a href="#project" style="text-decoration: none; color: black; padding-left: 80%; padding-top: 0px;">Project</a>
+        <a href="#about" style="text-decoration: none; color: black; padding-left: 20px; ">About</a>
+        <a href="#contact" style="text-decoration: none; color: black; padding-left: 20px;">Contact</a></p>
+        </header>
+    </div>
+    <div class="parent1">
+        <img src="https://www.w3schools.com/w3images/architect.jpg">
+        <div class="child1">
+            <pre><h1><b id="br">BR</b> Architects</h1></pre>   
+        </div>
+    </div> 
+    <div id="project"class="project1">
+        <h1 style="padding-left: 15px;">Projects</h1>
+        <hr style="width: 99.7%; color: lightgray;">
+        <br>
+        <div class="pimg">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" width="350" height="250" style="position: relative;">
+            <p style="background-color: black; color: white; position: relative; bottom: 270px; width: 100px; padding: 5px;">Summer House</p>
+        </div>
+        <div class="pimg">   
+            <img src="https://www.w3schools.com/w3images/house2.jpg" width="350" height="250" style="position: relative;">
+            <p style="background-color: black; color: white; position: relative; bottom: 270px; width: 100px; padding: 5px;">Brick House</p>
+        </div> 
+        <div class="pimg">  
+            <img src="https://www.w3schools.com/w3images/house3.jpg" width="350" height="250" style="position: relative;">
+            <p style="background-color: black; color: white; position: relative; bottom: 270px; width: 100px; padding: 5px;">Renovated</p>
+        </div>  
+        <div class="pimg">    
+            <img src="https://www.w3schools.com/w3images/house4.jpg" width="350" height="250" style="position: relative;">
+            <p style="background-color: black; color: white; position: relative; bottom: 270px; width: 100px; padding: 5px;">Barn House</p>
+        </div>    
+    </div>
+    <div id="project"class="project2">
+        <div class="pimg">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" width="350" height="250" style="position: relative;">
+            <p style="background-color: black; color: white; position: relative; bottom: 270px; width: 100px; padding: 5px;">Summer House</p>
+        </div>
+        <div class="pimg">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" width="350" height="250" style="position: relative;">
+            <p style="background-color: black; color: white; position: relative; bottom: 270px; width: 100px; padding: 5px;">Brick House</p>
+        </div>
+        <div class="pimg">   
+            <img src="https://www.w3schools.com/w3images/house4.jpg" width="350" height="250" style="position: relative;">
+            <p style="background-color: black; color: white; position: relative; bottom: 270px; width: 100px; padding: 5px;">Renovated</p>
+        </div> 
+        <div class="pimg">   
+            <img src="https://www.w3schools.com/w3images/house3.jpg" width="350" height="250" style="position: relative;">
+            <p style="background-color: black; color: white; position: relative; bottom: 270px; width: 100px; padding: 5px;">Barn House</p>
+        </div>     
+    </div>
+    <div id="about"class="about">
+        <h1>About</h1>
+        <hr style="width: 99.7%; color: lightgray;">
+        <p style="letter-spacing: 0.5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="parent2">
+        <div class="ietm">
+            <img src="https://www.w3schools.com/w3images/team2.jpg" width="350" height="250">
+            <h3>John Deo</h3>
+            <p style="color: lightslategray;">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus<br>vestibulum. Suspendisse sodales pellentesque<br>elementum.</p>
+            <button type="submit" style="width: 100%; padding: 8px;">Contact</button>
+        </div>
+        <div class="ietm">
+            <img src="https://www.w3schools.com/w3images/team1.jpg" width="350" height="250">
+            <h3>Jane Doe</h3>
+            <p style="color: lightslategray;">Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus<br>vestibulum. Suspendisse sodales pellentesque<br>elementum.</p>
+            <button type="submit" style="width: 100%; padding: 8px;">Contact</button>
+        </div>
+        <div class="ietm">
+            <img src="https://www.w3schools.com/w3images/team3.jpg" width="350" height="250">
+            <h3>Mike Ross</h3>
+            <p style="color: lightslategray;">Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus<br>vestibulum. Suspendisse sodales pellentesque<br>elementum.</p>
+            <button type="submit" style="width: 100%; padding: 8px;">Contact</button>
+        </div>
+        <div class="ietm">
+            <img src="https://www.w3schools.com/w3images/team4.jpg" width="350" height="250">
+            <h3>Dan Star</h3>
+            <p style="color: lightslategray;">Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus<br>vestibulum. Suspendisse sodales pellentesque<br>elementum.</p>
+            <button type="submit" style="width: 100%; padding: 8px;">Contact</button>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        <h2 style="padding-top: 80px;">Contact</h2>
+        <hr style="width: 99.7%; color: lightgray">
+        <p>Lets get in touch and talk about your next project.</p>
+        <form>
+            <input type="text" placeholder="Name" style="padding-right: 87%; padding-top: 10px; padding-bottom: 10px; padding-left: 3px;">
+            <br><br>
+            <input type="email" placeholder="Email" style="padding-right: 87%; padding-top: 10px; padding-bottom: 10px; padding-left: 3px;">
+            <br><br>
+            <input type="text" placeholder="Subject" style="padding-right: 87%; padding-top: 10px; padding-bottom: 10px; padding-left: 3px;">
+            <br><br>
+            <input type="text" placeholder="Comment" style="padding-right: 87%; padding-top: 10px; padding-bottom: 10px; padding-left: 3px;">
+            <br><br><br>
+            <button type="submit" style="background-color: black; color: white; padding: 10px;">SEND MESSAGE</button>
+        </form>
+    </div>
+    <div>
+        <img src="https://www.w3schools.com/w3images/map.jpg" style="width: 97%; padding-top: 50px; padding-left: 20px;">
+    </div>
+    <br>
+    <div class="footer">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"  style="text-decoration: none; color: white; ">w3.css</a></p>
+    </div>
+</body>    
+</html>
