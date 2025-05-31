@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        *{
+            border: 0;
+            margin: 0;
+        }
+        .child1{
+            position: relative;
+        }
+        .parent1>.child1>h1{
+            position: absolute;
+            bottom: 0%;
+        }
+        .img1,h1{
+            display: flex;
+        }
+        .main{
+            width: 100%;
+            height: 100%;
+            background-color:lightgray;
+            
+        }
+        .parent1{
+            width: 500px;
+            height: 1100px;
+            background-color: white;
+            margin-left:  70px;
+            
+        }
+        .child2,.child3,.child4{
+            padding-left: 10px;
+            padding-bottom: 50px;
+        }
+        .parent2{
+            width: 830px;
+            height: 590px;
+            background-color: white;
+            margin-left:  30px;
+            padding-left: 15px;
+        }
+        .parent1,.parent2{
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 28px;
+            margin-bottom: 50px;
+        }
+        .parent2>.thing2,.thing3{
+            padding-top: 50px;
+            
+        }
+        .parent2>h1{
+            padding-top: 30px;
+        }
+        .parent3{
+            width: 830px;
+            height: 400px;
+            background-color: white;
+            padding-left: 15px;
+            padding-top: 50px;
+            margin-left: 606px;
+            margin-top: -500px;
+        }
+        .footer{
+            background-color:rgb(12, 131, 131);
+            color: white;
+            text-align: center;
+            width: 100%;
+            height: 100px;
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="parent1">
+            <div class="child1">
+                <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" width="500" height="400">
+                <h1 style="padding-left: 10px;padding-bottom: 10px;">Jane Doe</h1>
+            </div>
+            <div class="child2">
+                <p><ion-icon name="briefcase-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Designer</p>
+                <p><ion-icon name="home-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>London, UK</p>
+                <p><ion-icon name="mail-outline"style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>ex@mail.com</p>
+                <p><ion-icon name="call-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>1224435534</p>
+            </div>
+            <div class="child3">
+                <h3><ion-icon name="flower-outline"style="color:rgb(12, 131, 131);padding-right: 9px;"></ion-icon><b>Skills</b></h3>
+                <p>Adobe Photoshop</p>
+                <input type="text" value="90%" style="background-color:rgb(12, 131, 131); color: white; text-align: center; width: 90%; border-style: groove; border-radius: 10px;">
+                <p>Photography</p>
+                <input type="text" value="80%" style="background-color:rgb(12, 131, 131); color: white; text-align: center; width: 80%; border-style: groove; border-radius: 10px;">
+                <p>Illustrator</p>
+                <input type="text" value="75%" style="background-color:rgb(12, 131, 131); color: white; text-align: center; width: 75%; border-style: groove; border-radius: 10px;">
+                <p>Media</p>
+                <input type="text" value="50%" style="background-color:rgb(12, 131, 131); color: white; text-align: center; width: 55%; border-style: groove; border-radius: 10px;">
+            </div>
+            <div class="child4">
+                <h3><ion-icon name="earth-outline" style="color: rgb(12, 131, 131);padding-right: 9px;;"></ion-icon><b>Languages</b></h3>
+                <p>English</p>
+                <input type="text" style="background-color:rgb(12, 131, 131);  text-align: center; width: 90%; border-style: groove; border-radius: 10px;">
+                <p>Spanish</p>
+                <input type="text" style="background-color:rgb(12, 131, 131); text-align: center; width: 50%; border-style: groove; border-radius: 10px;">
+                <p>German</p>
+                <input type="text" style="background-color:rgb(12, 131, 131); text-align: center; width: 30%; border-style: groove; border-radius: 10px;">
+            </div>
+        </div>
+        <div class="parent2">
+            <h1><ion-icon name="bag-check-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Work Experience</h1>
+            <div class="thing1">
+                <p style="padding-top: 20px;">Front End Developer / w3schools.com</p>
+                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon> Jan 2015 - <button type="submit" style="background-color:rgb(12, 131, 131); color: white; border-radius: 8px;">Current</button></p>
+                <p style="padding-top: 20px;">Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla <br> tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            </div>    
+                <hr>
+            <div class="thing2">   
+                <h3 style="padding-top: 20px;">Web Developer / something.com</h3>
+                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon> Mar 2012 - Dec 2014</p>
+                <p style="padding-top: 20px;">Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla<br>tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            </div>     
+                <hr>
+            <div class="thing3">   
+                <h3 style="padding-top: 20px;">Graphic Designer / designsomething.com</h3>
+                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Jun 2010 - Mar 2012</p>
+                <p style="padding-top: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>     
+        </div>
+        <div class="parent3">
+            <h1><ion-icon name="medical-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Education</h1>
+            <div class="c1">
+                <h3>W3Schools.com</h3>
+                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Forever</p>
+                <p>Web Development! All I need to know in one place</p> 
+            </div> 
+            <hr>
+            <div class="c2">
+                <h3>London Business School</h3>
+                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>2013 - 2015</p>
+                <p>Master Degree</p> 
+            </div>
+            <hr>
+            <div class="c3">
+                <h3>School of Coding</h3>
+                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>2010 - 2013</p>
+                <p>Bachelor Degree</p> 
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="footer">
+        <p>Find me on social media.</p>
+        <br>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"  style="text-decoration: none; color: white; ">w3.css</a></p>
+    </div>
+</body>
+</html>
