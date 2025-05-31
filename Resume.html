@@ -8,7 +8,6 @@
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
         *{
-            border: 0;
             margin: 0;
         }
         .child1{
@@ -32,6 +31,8 @@
             height: 1100px;
             background-color: white;
             margin-left:  70px;
+            box-shadow: 10px;
+            box-shadow: 5px 5px 5px 5px dimgrey;
             
         }
         .child2,.child3,.child4{
@@ -44,6 +45,7 @@
             background-color: white;
             margin-left:  30px;
             padding-left: 15px;
+            box-shadow: 5px 5px 5px 5px dimgrey;
         }
         .parent1,.parent2{
             display: inline-block;
@@ -52,20 +54,22 @@
             margin-bottom: 50px;
         }
         .parent2>.thing2,.thing3{
-            padding-top: 50px;
+            padding-top: 30px;
             
         }
         .parent2>h1{
             padding-top: 30px;
         }
         .parent3{
+            box-shadow: 5px 5px 5px 5px dimgrey;
             width: 830px;
-            height: 400px;
+            height: 450px;
             background-color: white;
             padding-left: 15px;
-            padding-top: 50px;
             margin-left: 606px;
-            margin-top: -500px;
+            margin-top: -520px;
+            padding-bottom: 10px;
+            padding-top: 20px;
         }
         .footer{
             background-color:rgb(12, 131, 131);
@@ -73,7 +77,10 @@
             text-align: center;
             width: 100%;
             height: 100px;
-            padding-top: 80px;
+            padding-top: 30px;
+        }
+        .c1,.c2,.c3{
+            padding-bottom: 5px;
         }
     </style>
 </head>
@@ -89,6 +96,8 @@
                 <p><ion-icon name="home-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>London, UK</p>
                 <p><ion-icon name="mail-outline"style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>ex@mail.com</p>
                 <p><ion-icon name="call-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>1224435534</p>
+            <br>
+            <hr>
             </div>
             <div class="child3">
                 <h3><ion-icon name="flower-outline"style="color:rgb(12, 131, 131);padding-right: 9px;"></ion-icon><b>Skills</b></h3>
@@ -117,14 +126,16 @@
                 <p style="padding-top: 20px;">Front End Developer / w3schools.com</p>
                 <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon> Jan 2015 - <button type="submit" style="background-color:rgb(12, 131, 131); color: white; border-radius: 8px;">Current</button></p>
                 <p style="padding-top: 20px;">Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla <br> tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-            </div>    
+                <br>
                 <hr>
+            </div>  
             <div class="thing2">   
                 <h3 style="padding-top: 20px;">Web Developer / something.com</h3>
                 <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon> Mar 2012 - Dec 2014</p>
                 <p style="padding-top: 20px;">Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla<br>tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-            </div>     
+                <br>
                 <hr>
+            </div>     
             <div class="thing3">   
                 <h3 style="padding-top: 20px;">Graphic Designer / designsomething.com</h3>
                 <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Jun 2010 - Mar 2012</p>
@@ -132,29 +143,35 @@
             </div>     
         </div>
         <div class="parent3">
-            <h1><ion-icon name="medical-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Education</h1>
+            <h1><ion-icon name="medical-outline" style="color:rgb(12, 131, 131); padding-bottom: 10px;"></ion-icon>Education</h1>
             <div class="c1">
-                <h3>W3Schools.com</h3>
-                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Forever</p>
-                <p>Web Development! All I need to know in one place</p> 
+                <h3 style="padding-bottom: 10px;">W3Schools.com</h3>
+                <p style="color:rgb(12, 131, 131);padding-top: 3px; padding-bottom: 10px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>Forever</p>
+                <p style="padding-bottom: 10px;">Web Development! All I need to know in one place</p> 
             </div> 
+            <br>
             <hr>
+            <br>
             <div class="c2">
-                <h3>London Business School</h3>
-                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>2013 - 2015</p>
-                <p>Master Degree</p> 
+                <h3 style="padding-bottom: 10px;">London Business School</h3>
+                <p style="color:rgb(12, 131, 131);padding-top: 3px; padding-bottom: 10px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>2013 - 2015</p>
+                <p style="padding-bottom: 10px;">Master Degree</p> 
             </div>
+            <br>
             <hr>
+            <br>
             <div class="c3">
-                <h3>School of Coding</h3>
-                <p style="color:rgb(12, 131, 131);padding-top: 20px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>2010 - 2013</p>
-                <p>Bachelor Degree</p> 
+                <h3 style="padding-bottom: 10px;">School of Coding</h3>
+                <p style="color:rgb(12, 131, 131);padding-top: 3px; padding-bottom: 10px;"><ion-icon name="calendar-outline" style="color:rgb(12, 131, 131); padding-right: 10px;"></ion-icon>2010 - 2013</p>
+                <p style="padding-bottom: 10px;">Bachelor Degree</p> 
             </div>
         </div>
         <br>
         <br>
         <div class="footer">
             <p>Find me on social media.</p>
+            <br>
+            <p><ion-icon name="logo-facebook"></ion-icon><ion-icon name="logo-instagram"></ion-icon><ion-icon name="logo-snapchat"></ion-icon><ion-icon name="logo-pinterest"></ion-icon><ion-icon name="logo-twitter"></ion-icon><ion-icon name="logo-linkedin"></ion-icon></p>
             <br>
             <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"  style="text-decoration: none; color: white; ">w3.css</a></p>
         </div>
